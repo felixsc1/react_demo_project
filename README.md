@@ -21,3 +21,11 @@ Introduces react useRef() to read user inputs.
 Uses firebase as backend to submit inputs to database (see 'NewMeetup.js' for fetch request, and lesson 42 of course).
 
 See other [tutorial](https://academind.com/tutorials/connect-to-database) for how to connect react with your own database.
+
+### Fetching data
+
+See _AllMeetups.js_ for how to use fetch(), dealing with asynchronous loading, displaying data using state.
+
+## React context
+
+Manage application wide state. For more advanced applications, see [redux](https://react-redux.js.org/) library.
