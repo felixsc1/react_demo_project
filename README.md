@@ -5,6 +5,8 @@ This project demonstrates how to implement most of the typical features in a Rea
 
 ## Topics
 
+Below some core concepts used in this project, detailed explanation is found in the corresponding code in the form of comments.
+
 ### Routing
 
 See comments in _App.js_ for how to implement routing with react. Note: next.js can do this much easier without manual work.
@@ -24,8 +26,9 @@ See other [tutorial](https://academind.com/tutorials/connect-to-database) for ho
 
 ### Fetching data
 
-See _AllMeetups.js_ for how to use fetch(), dealing with asynchronous loading, displaying data using state.
+See _AllMeetups.js_ for how to use fetch(), dealing with asynchronous loading, displaying data using state. Practice idea: Could change code to use axios instead.
 
 ## React context
 
-Manage application wide state. For more advanced applications, see [redux](https://react-redux.js.org/) library.
+Manage application wide state. For more advanced use cases, see [redux](https://react-redux.js.org/) library.
+See comments in _store/favorites_context.js_ for details.
