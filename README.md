@@ -5,7 +5,7 @@ This project demonstrates how to implement most of the typical features in a Rea
 
 ## Topics
 
-Below some core concepts used in this project, detailed explanation is found in the corresponding code in the form of comments.
+Below some core concepts used in this project, detailed explanations are found in the corresponding code as comments.
 
 ### Routing
 
@@ -28,7 +28,8 @@ See other [tutorial](https://academind.com/tutorials/connect-to-database) for ho
 
 See _AllMeetups.js_ for how to use fetch(), dealing with asynchronous loading, displaying data using state. Practice idea: Could change code to use axios instead.
 
-## React context
+### React context
 
 Manage application wide state. For more advanced use cases, see [redux](https://react-redux.js.org/) library.
-See comments in _store/favorites_context.js_ for details.
+See comments in _store/favorites_context.js_ for details on how to create a context and handler functions.
+See _./meetups/MeetupItem.js_ for example how to use the context in a component.
