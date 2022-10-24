@@ -29,14 +29,14 @@ export function FavoritesContextProvider(props) {
         // filter is built in function that returns new array and takes in function as argument:
         // go through each item (meetup), if function returns true, keep it in ouput array, if false remove it.
         setUserFavorites((prevUserFavorites) => {
-            return prevUserFavorites.filter((meetup) => meetup.id != meetupId)
+            return prevUserFavorites.filter((meetup) => meetup.id !== meetupId)
         })
     }
 
     function itemIsFavoriteHandler(meetupId) {
         // some() also needs function as argument that is executed for every item in array.
         // if at least one item in array returns true with that function, some() overall returns true.
-        return userFavorites.some((meetup) => meetup.id == meetupId)
+        return userFavorites.some((meetup) => meetup.id === meetupId)
     }
 
     // we can also add pointers to our functions to the context, so they are available in other components.
